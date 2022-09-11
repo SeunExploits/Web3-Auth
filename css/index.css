@@ -1,0 +1,22 @@
+body{
+    background-color: #ddd;
+    text-align: center;
+    font-family:"Montserrat", "serif";
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.authenticate-img{
+    width: 100px;
+    height: 100px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
+}
+
+h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}

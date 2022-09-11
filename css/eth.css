@@ -1,0 +1,70 @@
+body{
+    font-family:"Montserrat", "serif";
+    background-color: #fff;
+}
+
+.nav-header{
+background-color: #1363DF;
+}
+
+.nav{
+    margin: auto;
+}
+
+.eth-logo{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+h4{
+    font-weight: bold;
+    color:#fff;
+}
+
+h4:hover{
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+
+button{
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.butt{
+padding: 9px;
+}
+
+.Auth{
+    height: 400px;
+    width: 400px;
+}
+
+.Auth:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+footer{
+    text-align: center;
+}
+
+.creator-name{
+    display: inline;
+}
+
+.year{
+    display: inline;
+}
+
+a{
+    color: #000;
+}
+
+
+@media(max-width: 1200px){
+    body{
+        text-align: center;
+    }
+}
