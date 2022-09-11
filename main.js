@@ -9,6 +9,7 @@ async function login() {
     if (!user) {
         user = await Moralis.authenticate({
             signingMessage: "Tee2dWhy Tells you to Authenticate",
+            provider: "walletconnect"
         })
             .then(function (user) {
                 console.log("logged in user:", user);
