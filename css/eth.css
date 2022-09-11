@@ -67,4 +67,7 @@ a{
     body{
         text-align: center;
     }
+    .butt{
+        margin-bottom: 15px;
+    }
 }
